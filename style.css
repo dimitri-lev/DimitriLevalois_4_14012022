@@ -849,6 +849,7 @@ h4 {
 .col-sm-6 img {
     margin-right: auto;
     margin-left: auto;
+    width: 300px;
 }
 
 .voffset p:nth-child(1) {
