@@ -29,13 +29,13 @@
 						<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 							<ul class="site-navigation nav navbar-nav">
 								<li>
-									<a href="index.html#bloc-2-services">Notre métier</a>
+									<a href="index.html#bloc-2-services" aria-label="rejoindre section nos services">Notre métier</a>
 								</li>
 								<li>
-									<a href="index.html#bloc-4-portfolio">Nos réalisations</a>
+									<a href="index.html#bloc-4-portfolio" aria-label="rejoindre section nos réalisations">Nos réalisations</a>
 								</li>
 								<li>
-									<a href="index.html">Accueil</a>
+									<a href="index.html" aria-label="rejoindre la page d'accueil">Accueil</a>
 								</li>
 							</ul>
 						</div>
@@ -70,24 +70,24 @@
 										<label>
 											Nom
 										</label>
-										<input id="name" class="form-control" placeholder="votre nom" required/>
+										<input id="name" class="form-control" placeholder="votre nom" required aria-label="Saisissez votre nom" data-validation-required-message="Saisissez votre nom" />
 									</div>
 									<div class="form-group">
 										<label>
 											Adresse email
 										</label>
-										<input id="email" class="form-control" type="email" placeholder="mon@mail.com" required/>
+										<input id="email" class="form-control" type="email" placeholder="mon@mail.com" required aria-label="Saisissez votre adresse e-mail" data-validation-required-message="Saisissez votre e-mail"/>
 									</div>
 									<div class="form-group">
 										<label>
 											Comment nous avez-vous connu ?
 										</label>
-										<input class="form-control" type="email" placeholder="exemple: réseaux sociaux, internet..." required id="input_504" />
+										<input class="form-control" type="email" placeholder="exemple: réseaux sociaux, internet..." required id="input_504" aria-label="Saisissez comment vous nous avez connu" data-validation-required-message="Dîtes-nous comment vous nous avez connu" />
 									</div>
 									<div class="form-group">
 										<label>
 											Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-										</label><textarea id="message" class="form-control" rows="4" cols="50" placeholder="Dîtes-nous en plus sur votre projet" required></textarea>
+										</label><textarea id="message" class="form-control" rows="4" cols="50" placeholder="Dîtes-nous en plus sur votre projet" required aria-label="Saisissez le brief de votre projet" data-validation-required-message="Dîtes-nous en plus sur votre projet"></textarea>
 									</div> 
 									<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 										Envoyer
@@ -105,7 +105,7 @@
 				</section>
 			</main>
 
-			<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
+			<a class="bloc-button btn btn-d scrollToTop" aria-label="remonter en haut de la page" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
 
 			<footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
 				<div class="container bloc-sm">
@@ -117,22 +117,22 @@
 							<div class="row row-no-gutters social">
 								<div class="col-sm-3">
 									<div class="text-center">
-										<a class="social" href="https://twitter.com"><span class="fa fa-twitter icon-md"></span></a>
+										<a class="social" href="https://twitter.com" aria-label="lien vers notre page twitter"><span class="fa fa-twitter icon-md"></span></a>
 									</div>
 								</div>
 								<div class="col-sm-3">
 									<div class="text-center">
-										<a class="social" href="https://www.facebook.com"><span class="fa fa-facebook icon-md"></span></a>
+										<a class="social" href="https://www.facebook.com" aria-label="lien vers notre page facebook"><span class="fa fa-facebook icon-md"></span></a>
 									</div>
 								</div>
 								<div class="col-sm-3">
 									<div class="text-center">
-										<a class="social" href="https://dribbble.com"><span class="fa fa-dribbble icon-md"></span></a>
+										<a class="social" href="https://dribbble.com" aria-label="lien vers notre page dribbble"><span class="fa fa-dribbble icon-md"></span></a>
 									</div>
 								</div>
 								<div class="col-sm-3">
 									<div class="text-center">
-										<a class="social" href="https://www.instagram.com"><span class="fa fa-instagram icon-md"></span></a>
+										<a class="social" href="https://www.instagram.com" aria-label="lien vers notre page instagram"><span class="fa fa-instagram icon-md"></span></a>
 									</div>
 								</div>
 							</div>
