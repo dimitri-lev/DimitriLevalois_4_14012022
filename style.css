@@ -835,15 +835,20 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("img/la-chouette-agence-banniere.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.jpg");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 .col-sm-6 h2 {
     margin-bottom: 30px;
+}
+
+.col-sm-6 img {
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .voffset p:nth-child(1) {
