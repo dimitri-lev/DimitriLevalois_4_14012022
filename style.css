@@ -894,6 +894,10 @@ footer .col-sm-3 {
     padding-right: 15px;
 }
 
+.partenaires, .partenaires a {
+    color: white!important;
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
